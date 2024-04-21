@@ -1,0 +1,231 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WRAPN'ROLL</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/3d3bb9a7e2.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><i class="fa-solid fa-location-dot"></i> Canadian st.</li>
+				<li>Take away ONLY!</li>
+				<li><i class="fa-solid fa-phone"></i> +76 209 1092 4095</li>
+			</ul>
+		</nav>
+		<header>
+			<h1>WRAPN'ROLL</h1>
+			<p>Sushi Bar</p>
+		</header>
+		<main>
+			<section class="rolls">
+				<h2>ROLLS (8PCS)</h2>
+				<div class="item" id="shinagawa" onclick="displayText(id)">
+					<h3>SHINAGAWA<span class="price">$13,50</span></h3>
+					<p style="display: none">
+						Cream cheese, avocado, salmon, tuna(marinad), mayo
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="katsu" onclick="displayText(id)">
+					<h3>KATSU<span class="price">$10,50</span></h3>
+					<p style="display: none">
+						Cream cheese, cucumber, salmon(teriyaki), tuna flake
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="unagi" onclick="displayText(id)">
+					<h3>UNAGI<span class="price">$11,00</span></h3>
+					<p style="display: none">
+						Cucumber, avocado, eel, shrimp, sesame, eel sauce
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="anguilla" onclick="displayText(id)">
+					<h3>ANGUILLA<span class="price">$12,50</span></h3>
+					<p style="display: none">
+						Cream cheese, cucumber, sushi radish, eel, sesame, eel sauce
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="philadelphia" onclick="displayText(id)">
+					<h3>PHILADELPHIA<span class="price">$13,99</span></h3>
+					<p style="display: none">Cream cheese, avocado, salmon</p>
+					<hr />
+				</div>
+				<div class="item" id="ebi tempura" onclick="displayText(id)">
+					<h3>EBI TEMPURA<span class="price">$10,50</span></h3>
+					<p style="display: none">
+						Cucumber, cream cheese, sushi radish, shrimp tempura
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="green dragon" onclick="displayText(id)">
+					<h3>GREEN DRAGON<span class="price">$12,50</span></h3>
+					<p style="display: none">
+						Shrimp, eel, cucumber, tobico, avocado, sesame, eel sauce
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="kootenay" onclick="displayText(id)">
+					<h3>KOOTENAY<span class="price">$11,50</span></h3>
+					<p style="display: none">
+						Shrimp, avocado, cream cheese, salted salmon, lemon
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="california salmon" onclick="displayText(id)">
+					<h3>CALIFORNIA SALMON<span class="price">$8,50</span></h3>
+					<p style="display: none">Cucumber, avocado, salmon, mayo, sesame</p>
+					<hr />
+				</div>
+				<div class="item" id="california tuna" onclick="displayText(id)">
+					<h3>CALIFORNIA TUNA<span class="price">$9,50</span></h3>
+					<p style="display: none">Cucumber, avocado, tuna, mayo, sesame</p>
+					<hr />
+				</div>
+				<div class="item" id="california eel" onclick="displayText(id)">
+					<h3>CALIFORNIA EEL<span class="price">$10,50</span></h3>
+					<p style="display: none">Cucumber, avocado, eel, mayo, sesame</p>
+					<hr />
+				</div>
+				<div class="item" id="masago spicy salmon" onclick="displayText(id)">
+					<h3>
+						MASAGO SPICY SALMON <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$11,50</span>
+					</h3>
+					<p style="display: none">
+						Cucumber, avocado, spicy mayo, tobico, salmon
+					</p>
+					<hr />
+				</div>
+				<div class="item" id="masago spicy tuna" onclick="displayText(id)">
+					<h3>
+						MASAGO SPICY TUNA <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$12,50</span>
+					</h3>
+					<p style="display: none">
+						Cucumber, avocado, spicy mayo, tobico, tuna
+					</p>
+					<hr />
+				</div>
+				<div class="item gluten" id="vegetarian" onclick="displayText(id)">
+					<h3>
+						VEGETARIAN <i class="fa-solid fa-leaf"></i>
+						<i class="fa-solid fa-wheat-awn"></i>
+						<span class="price">$7,00</span>
+					</h3>
+					<p style="display: none">Cucumber, sweet pepper, lattuce, toffu</p>
+					<hr />
+				</div>
+			</section>
+			<section class="hosomaki">
+				<h2>HOSOMAKI (6PCS)</h2>
+				<div class="item" id="kappa maki" onclick="displayText(id)">
+					<h3>
+						KAPPA MAKI <i class="fa-solid fa-leaf"></i>
+						<i class="fa-solid fa-wheat-awn"></i
+						><span class="price">$4,00</span>
+					</h3>
+					<p style="display: none">Cucumber, sesame</p>
+					<hr />
+				</div>
+				<div class="item" id="alligator maki" onclick="displayText(id)">
+					<h3>
+						ALLIGATOR MAKI <i class="fa-solid fa-leaf"></i
+						><span class="price">$4,70</span>
+					</h3>
+					<p style="display: none">Avocado, sesame, balsamic sauce</p>
+					<hr />
+				</div>
+				<div class="noclick" id="salmon maki" onclick="displayText(id)">
+					<h3>
+						SALMON MAKI <i class="fa-solid fa-wheat-awn"></i
+						><span class="price">$6,00</span>
+					</h3>
+					<hr />
+				</div>
+				<div class="noclick" id="tuna maki" onclick="displayText(id)">
+					<h3>
+						TUNA MAKI <i class="fa-solid fa-wheat-awn"></i
+						><span class="price">$7,00</span>
+					</h3>
+					<hr />
+				</div>
+			</section>
+			<section class="nigiri">
+				<h2>NIGIRI (2PCS)</h2>
+				<div class="noclick" id="salmon nigiri" onclick="displayText(id)">
+					<h3>
+						SALMON <i class="fa-solid fa-wheat-awn"></i
+						><span class="price">$6,00</span>
+					</h3>
+					<hr />
+				</div>
+				<div class="noclick" id="tuna nigiri" onclick="displayText(id)">
+					<h3>
+						TUNA <i class="fa-solid fa-wheat-awn"></i
+						><span class="price">$6,50</span>
+					</h3>
+					<hr />
+				</div>
+				<div class="noclick" id="eel nigiri" onclick="displayText(id)">
+					<h3>
+						EEL <i class="fa-solid fa-wheat-awn"></i
+						><span class="price">$7,50</span>
+					</h3>
+					<hr />
+				</div>
+			</section>
+			<section class="gunkan">
+				<h2>GUNKAN (1PC)</h2>
+				<div class="item" id="salmon gunkan" onclick="displayText(id)">
+					<h3>
+						SALMON <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$3,50</span>
+					</h3>
+					<p style="display: none">Salmon, spicy mayo, tobico</p>
+					<hr />
+				</div>
+				<div class="item" id="tuna gunkan" onclick="displayText(id)">
+					<h3>
+						TUNA <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$4,00</span>
+					</h3>
+					<p style="display: none">Tuna, spicy mayo, tobico</p>
+					<hr />
+				</div>
+				<div class="item" id="eel gunkan" onclick="displayText(id)">
+					<h3>
+						EEL <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$4,20</span>
+					</h3>
+					<p style="display: none">Eel, spicy mayo, tobico</p>
+					<hr />
+				</div>
+				<div class="item" id="shrimp" onclick="displayText(id)">
+					<h3>
+						SHRIMP <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$3,50</span>
+					</h3>
+					<p style="display: none">Shrimp, spicy mayo, tobico</p>
+					<hr />
+				</div>
+				<div class="item" id="scallop" onclick="displayText(id)">
+					<h3>
+						SCALLOP <i class="fa-solid fa-pepper-hot"></i
+						><span class="price">$3,50</span>
+					</h3>
+					<p style="display: none">Scallop, spicy mayo, tobico</p>
+					<hr />
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
