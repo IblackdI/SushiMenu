@@ -117,6 +117,7 @@ hr {
 	height: 0.5vw;
 	background-color: red;
 	color: red;
+	border: none;
 }
 .fa-leaf {
 	color: greenyellow;
